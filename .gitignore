@@ -1,2 +1,4 @@
 .DS_store
 .ipynb_checkpoints
+grayscale500res_CNN1.h5
+nn_images/
