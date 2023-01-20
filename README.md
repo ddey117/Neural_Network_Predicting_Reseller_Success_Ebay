@@ -109,8 +109,8 @@ The Eight Pocketknife brands and their associated cost at the Texas Surplus Stor
 
 
 <div class="alert alert-block alert-info">  
-<span style="color:green">After cleaning the data to remove lots, groups, and most of the listings with multiple knives using regex, there were over 70,000 listings scraped from Terapeak, represting the final sale price of 70K different knives and their associated titles and images.</span>   
- <span style="color:yellow">Around 10K listings were obtained using eBay's API, represnting current listed knives and their asking price. A large enough sample size of knives currently listed for sale should approximate the true value of the knife. A lot more of the sold data was available and is a clear indicator of the value of knives over the past two years.</span>
+After cleaning the data to remove lots, groups, and most of the listings with multiple knives using regex, there were over 70,000 listings scraped from Terapeak, represting the final sale price of 70K different knives and their associated titles and images.
+round 10K listings were obtained using eBay's API, represnting current listed knives and their asking price. A large enough sample size of knives currently listed for sale should approximate the true value of the knife. A lot more of the sold data was available and is a clear indicator of the value of knives over the past two years.
  </div>
  
  
