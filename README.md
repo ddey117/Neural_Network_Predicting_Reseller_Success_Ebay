@@ -1,114 +1,119 @@
 
-# Module 5 - Final Project Requirements
-
-## Introduction
-
-In this lesson, we'll discuss the requirements and expectations for the Module 5 Capstone Project!
-
-## Objectives
-
-You will be able to:
-
-* Describe all required aspects of the final project for Module 5
-* Describe all required deliverables
-* Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
+# Predicting Resale Value of Knives from a Texas Government Surplus Store
+### Using Machine Learning to Support an Ebay Store's Financial Success
 
 
-### Final Project Requirements
+Author: Dylan Dey
 
-Congratulations on making it to module 5! It's been a long journey, but we can finally see the light at the end of the tunnel!
+## Project Links
 
-<center><img src='end-of-tunnel.gif'>
-<strong><em>Actual Footage of you seeing the light at the end of the tunnel</strong></em>
-</center>
+Below is the link for the GitHub project page. 
 
-Now that you've learned everything we have to teach you, it's time to show off and flex your data science muscles with your own **_Capstone Project_**! This project will allow you to showcase everything you've learned as a data scientist to by completing a professional-level data science project of your choosing. This project will be significantly larger than any project you've completed so far, and will be the crown jewel of your portfolio. A strong capstone project is the single most important thing you can do to get the attention of potential employers, so be prepared to put as much effort into this project as possible--the results are **_worth it!_**
-
-<center><img src='milkshake.gif'>
-<strong><em>Your <s>milkshake</s> portfolio brings all the <s>boys</s> employers to <s>the yard</s> your inbox! </strong></em>
-</center>
-
-Let's take a look at the project requirements.
-
-### Topic requirements
-The projects are in a domain of your choosing.  Your project does not have to answer just one question, but may try to answer multiple questions in a domain, or subsequent questions.  (e.g. Now that we know _X_, what's the next question that comes from this?)  When choosing a topic, try to think through the "So what?" of your question.  
-
-* What are the possible outcomes you think you will find? These should be both mutually exclusive and collectively exhaustive. Why do these matter?
-* How could a company or individual make use of your findings to benefit them? What about your findings are _actionable_?
-
-You're completely free to choose any project topic that interests you. However, the project scope must be end-to-end, from data sourcing and cleaning all the way through tuning and analysis of your trained model(s).
-
-Make sure to plan in advance for the feasibility of the question in the time allowed--consider the following questions when selecting your project topic:
-
-* What version this question would allow me to find an answer in 2-3 days?
-* What version of this question would allow me/motivate me to work on this problem even after completing Flatiron School?
-
-### Technical Requirements
-
-Your project must meet the following technical requirements:
-
-1. **_No Off-The-Shelf Datasets_**. This project is a chance for you to highlight your critical thinking and data gathering skills by finding the perfect dataset to answer your question. If a pre-existing dataset exists that you'd like to use, it is okay to use it in your project. However, you should consider combining it with other existing sources of data, modifying the dataset through feature engineering. The goal here is to showcase your ability to find and work with data, so just grabbing Boston Housing Dataset or the MNIST dataset is out of the question. 
-
-2. **_Strong Data Exploration, with at least 4 relevant data visualizations._** Think of this project as a way for you to showcase your best possible work in every area that matters. There are few skills that impress employers more than the ability to dive into a new dataset and produce engaging visualizations that communicate important information. For this project, anything worth knowing is worth visualizing. Consider all that you have learned, and don't be afraid to dig into more advanced visualization libraries like seaborn to see what you make! You should make use of visualizations whenever possible during this project, not just during the Data Exploration phase--for instance, consider visualizing your confusion matrices rather than just printing them out as text!
-
-3. **_Makes use of Supervised Learning_**. This requirement dovetails with having a well-defined question, because you'll make use of supervised learning to find the answer! It is both acceptable and encouraged to make use of **_Unsupervised Learning_** techniques as needed in your project (for instance, segmentation with clustering algorithms), but the supervised learning should play a central role in answering your question. 
-
-4. **_Explicitly makes use of a Data Science Process such as OSEMN or CRISP-DM_**. This part is fairly straightforward--you should select a Data Science Process to use and then use this to give structure to your project. Each section should be clearly delineated in your Jupyter Notebook.
-
-5. **_A well-defined question, with a well-defined answer._** Your project should clearly state the question you are trying to answer, and provide any background context needed to understand it. For instance, if you are trying to detect faultlines using Earthquake data, you should provide a brief primer on both the topic and your dataset so that the reader can better understand your topic and approach. Similarly, the findings of your project should be clearly communicated. Do not just tell your audience the final accuracy of your models--be sure to answer "big picture" questions as well. For instance--why are these findings important or useful? Would you recommend shipping this model to production, or is more work needed? Who are these findings useful to, and why should they care? **_NOTE:_** Inconclusive results are okay--from a purely scientific perspective, they are no more or less important or valuable than any other kinds of results. If your results are inconclusive, you should discuss what your next steps would be from there. For instance, what do you think it would take to get conclusive results--more data? Different data that was unavailable? Both? 
+[Github link](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay)
 
 
-### Deliverables
 
-The deliverable for this project will be three components:
+# Predicting Resale Value of Knives from a Texas Government Surplus Store
 
-1. A **Jupyter notebook** for a presentation.  This will end up being the readme on your github. 
-  * The Jupyter notebook will have two components:
-    1. An **_Abstract_** section that briefly explains your problem, your methodology, and your findings, and business recommendations as a result of your findings. This section should be 1-2 paragraphs long.  
-    2. The technical analysis for a data science audience. This detailed technical analysis should explicitly follow a Data Science Process as outlined in the previous section. It should be well-formatted and organized, and should contain all code, visualizations, and detailed explanations/analysis.
-2. A **blog post** showcasing your project, with a focus on your methodology and findings. A well-written blog post about your project will probably be the first thing most recruiters and hiring managers will see, so really take the time to polish up this blog post and explain your project, methodology, and findings/business recommendations in a clear, concise manner. This blog post should cover everything important about your project, but remember that your audience for this blog post will largely be non-technical. Your blog post should definitely contain visualizations, code snippets, and anything else you find important, but don't get bogged down trying to explain highly technical concepts. Your blog post should provide a link to the GitHub repo containing your actual project, for people that want to really dive into the technical aspects of your project.
-3. A **video walkthrough** of your non-technical presentation. Some common video recording tools used are Zoom, Quicktime, and Nimbus. After you record your presentation, publish it on a service like YouTube or Google Drive, you will need a link to the video to submit your project.
+## Using Machine Learning to Support an Ebay Store's Financial Success
 
 
-### Final Project Proposals (2 project ideas)
+### Data Exploration and Modeling
 
-Selecting the right topic and selecting a problem with the appropriate scope can make or break a good project before you even begin. When starting, try to think up at least 2 different project ideas to explore that you can discuss with your instructor. Consider the following questions when coming up with your project. 
 
-#### Project Ideation Questions
+**Author:** Dylan Dey
 
-1. What question/questions are you trying to solve?
-  * What are the outcomes you think you will find (could use mutually exclusive collectively exhaustive for this)? Why do they matter?
-  * How would a person or business take action upon learning the results of your project? How will your findings be _useful_?
-  * What version this question would allow me to find an answer in 2-3 days?
-  * What version of this question would allow me/motivate me to work on this problem even after completing Flatiron School?
 
-2. What are some data sources that would allow you to answer this?
-  * What is the ideal data you would hope to gather to answer this question?  
-  * Potentially missing data, that could cause omitted variable bias?
-4. Is this a classification task? A regression task? Both?
-5. What are the challenges or obstacles you foresee with this project?
-6. What are your next steps moving forward?
+# Overview
+[Texas State Surplus Store](https://www.tfc.texas.gov/divisions/supportserv/prog/statesurplus/)
 
-### Example Student Project
+[What happens to all those items that get confiscated by the TSA? Some end up in a Texas store.](https://www.wfaa.com/article/news/local/what-happens-to-all-those-items-that-get-confiscated-by-the-tsa-some-end-up-in-a-texas-store/287-ba80dac3-d91a-4b28-952a-0aaf4f69ff95)
 
-To give you a frame of reference, take a look at this amazing [technical report](https://github.com/paulinaczheng/twitter_flu_tracking) from a previous student that used tweet data to predict the weekly number of flu cases during flu season. Pay attention to how well structured the project is, and how much she relies on great visualizations to tell her story for her. Your explanations don't have to be wordy--a visualization is worth a thousand words!
+[Texas Surplus Store PDF](https://www.tfc.texas.gov/divisions/supportserv/prog/statesurplus/State%20Surplus%20Brochure-one%20bar_rev%201-10-2022.pdf)
 
-# Summary
+![Texas State Surplus Store](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYkwyu20VBuQ52PrXdVRaGRIIg9OPXJg86lA&usqp=CAU)
 
-The Capstone Project and project review are the most critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with. Most importantly, they provide employers with a very strong signal about your technical abilities, and allow you to show the world what an amazing Data Scientist you've become!
+![Texas Knives In Stores](https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/MWJCCFBSR4I6FCSNKONTFJIRAI.jpg)
 
-The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
+[Everything that doesn't make it through Texas airports can be found at one Austin store](https://cbsaustin.com/news/local/everything-that-doesnt-make-it-through-texas-airports-can-be-found-at-one-austin-store)
 
-We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
 
-## Submitting your Project
+> The Texas Facilities Commission collects left behind possessions, salvage, and surplus from Texas state agencies such as DPS, TXDOT, TCEQ, and Texas Parks & Wildlife. Examples of commonly available items include vehicles, furniture, office equipment and supplies, small electronics, and heavy equipment. The goal of this project is to create a predictive model in order to determine the resale value of knivse from the Texas State Surplus Store on eBay. 
 
-You’re almost done! In order to submit your project for review, include the following links to your work in the corresponding fields on the right-hand side of Learn.
 
-1. **GitHub Repo:** Now that you’ve completed your project in Jupyter Notebooks, push your work to GitHub and paste that link to the right. (If you need help doing so, review the resources [here](https://docs.google.com/spreadsheets/d/1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE/edit#gid=0).)
-_Reminder: Make sure to also add and commit a pdf of your non-technical presentation to the repository with a file name of presentation.pdf._
-2. **Blog Post:** Include a link to your blog post.
-3. **Record Walkthrough:** Include a link to your video walkthrough.
+# Business Problem
 
-Hit "I'm done" to wrap it up. You will receive an email in order to schedule your review with your instructor.
+[Family Ebay Store Front](https://www.ebay.com/str/texasdave3?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=ZW3G27tGR_m&sssrc=3418065&ssuid=&widget_ver=artemis&media=COPY)
+
+![Father's Ebay Account Since 1999](texas_dave.jpg)
+
+[Texas Dave's Knives](https://www.ebay.com/str/texasdave3/Knives/_i.html?store_cat=3393246519)
+
+
+> While taking online courses to transition careers during a difficult time of my life, I was also helping my family during a turbulent time for everyone. I have been employed at their retail store in San Antonio for the past several months and have been contributing significantly to their online reselling business on eBay. I would help source newer, cheaper products from Austin to try and resell at the retail store in San Antonio or online to earn some money, support our family business. This is how I discovered the <mark>Texas State Surplus Store.</mark> 
+
+
+> My family has been running a resale shop and selling on Ebay and other sites for years and lately the business has picked up.  Consumer behavior is shifting:  getting a deal on eBay, or Goodwill, or hitting up a vintage boutique shop to find a unique treasure is now brag worthy.  Plus, people like the idea of sustainability - sending items to landfills is becoming very socially unacceptable – why not repurpose a used item?  With the pandemic related disruption of “normal” business and supply chains and the economic uncertainty of these times there is definitely an upswing in interest in the resale market. 
+
+> Online sales sites like Ebay offer a worldwide robust buyer base for just about every product regardless of condition. Ebay  allows the reseller to find both  bargain hunters for common items and  enthusiasts searching for rare  collectible items. 
+
+> An Ebay business has some pain points, however. <mark>Selection of an item to sell</mark> is the main pain point. The item should be readily available in decent condition for the seller to purchase at a low price but not so widely available that the market is saturated with that item.  Then there needs to be a demand for the item – it should be something collectible that with appeal to hobbyists that would pay premium prices for hard-to-get items. Alternatively, it would be something useful to a large number of people even in a used condition. The item should be small enough to be easily shipped. It should not be difficult to ship either—that is it should not have hazardous chemicals, batteries etc. that would add costs to the shipping. Additionally, Ebay has strict rules about authentication and certification in many item categories- so obvious “high value” items like jewelry or designer purses are so restricted that it is not  feasible  for the average Ebay seller to offer them . 
+
+> This project recommends an item that would answer these concerns – pocket knives, These can be rare and collectible and also practical and useful. There are knife collector forums and subReddits, showing there is an interest among collectors.  A look at eBay listings shows rare knives selling for thousands of 
+dollars each.  Knives are also a handy every day tool –  and based on the number  showing up in the Texas Surplus shop they are easy to lose and so need replacing often. This means there is a market for more common ones as well.  The great thing about <mark>single blade, modern, factory manufactured pocketknives</mark> is that they all weigh roughly 0.5 lbs making them cheap to ship. For my modeling purposes, it is safe to <mark>assume a flat shipping rate of 4.95(US Dollars)</mark> including the cost of wholesale purchased padded envelopes. And there are no restrictions on mailing these items and they are not fragile so no special packaging is needed. 
+
+> The second pain point is <mark>buying at a cost low enough to make a profit.</mark> It is not enough to just buy low and sell at a higher price as expenses need to be considered.  Ebay collects insertion fees and final value fees on all sales.  The fees vary with seller level (rating)  and some portions  are a percent of final sale. I have been selling knives from the lower priced bins and the mean seller fee for my sales so far is about 13.5% of the sold price.  So that is a cost to consider right up front. 
+
+> A third pain point is <mark>the cost of excess inventory.</mark> A seller can obtain quality items at a reasonable cost and then the inventory may sit with no sales, meaning the capital expended is sitting tied up in unwanted items. This inventory carry cost is a drain on profitability.  This project is meant to help avoid purchasing the wrong items for resale. 
+
+
+> As already mentioned, I have been experimenting with low cost used knives for resale but have not risked a large capital investment in the higher end items. The goal of this project is to attempt to address the pain points to determine if a larger investment would pay off. Can I identify which knives are worth investing in so that I can turn a decent profit and hopefully avoid excess inventory? A data driven approach would help avoid costly mistakes from the "system" resellers currently employ, which seems to be mainly a gambler’s approach. By managing resources upfront through a model, I can effectively increase my return on investment with messy data such as pictures and titles. The magic of Neural Networks!
+
+
+> There are <mark>eight buckets</mark> of presorted brand knives that I was interested in, specifically. These bins are behind glass, presorted, branded(and therefore have specific characteristics and logos for my model to identify), and priced higher. However, the staff has a very large amount of confiscated items flowing into the facility to list for resale, and when that happens they will not have time to preset them and they end up in huge buckets of unsorted knives for people to dig through. The brands will be priced the same, they are just no longer sorted and harder to find. This particular scenario is where a NN could really shine to help add more inventory to our Ebay website without risking more money or spending extra time than simply digging through the presorted bins everytime. Expanding the bins to pull inventory from will increase the chance of finding inventory worth reselling. 
+
+**sorted bucket example**
+![case price image](images/casePriceBucket2.jpg)
+
+**overflow example**
+![overflow image](images/overflow.jpeg)
+
+
+
+The Eight Pocketknife brands and their associated cost at the Texas Surplus Store:
+<ul>
+  <li>Benchmade: \$45.00</li>
+  <li>Buck: \$20.00</li>
+  <li>Case/Casexx: \$20.00</li>
+  <li>CRKT: \$15.00</li>
+  <li>Kershaw: \$15.00</li>
+  <li>SOG: \$15.00</li>
+  <li>Spyderco: \$30.00</li>
+  <li>Victorinox: \$20.00</li>
+</ul>
+
+[Ebay Developer Website](https://developer.ebay.com/)
+> Ebay has a website for developers to create an account and register an application keyset in order to make API call requests to their live website. By making a findItemsAdvanced call to the eBay Finding APIVersion 1.13.0, I was able to get a large dataset of [category_id=<48818>](https://www.ebay.com/sch/48818/i.html?_from=R40&_nkw=knife) knives listed for sale. This data is limited to anything listed within the past 90 days from when the API call was made.
+
+> When you log into Ebay as a buyer and search knife in the search bar, the response that loads outputs  Knives, Swords & Blades. Nested one category furtheris Collectible Folding Knives with an id of 182981. Nested one further is Modern Folding Knives(43333), and then finally, the category_id of most interest, 48818, Factory Manufactured Modern Collectible Folding Knives. 
+
+> The eBay Finding APIVersion 1.13.0 [findItemsAdvanced](https://developer.ebay.com/devzone/finding/callref/finditemsadvanced.html) call returns a lot of usefull information about listings, including itemId(a unique identifier for ebay listings),price, shipping price, area code, the title of the listing, the url for the listing, whether the seller set autoPay for the listing or whether the seller is a top rated seller or not, the condition of the item being sold, whether the seller accepts returns, and various links to images of the item being sold at different resolutions. If you look at a typical eBay listing, however, there is usually more minute information available that is required to be filled out by the seller upon posting the listing. To get this information, another API must be used that accepts the itemId of listings to return more details.
+
+> The eBay Shopping APIVersion 1247 [GetMultipleItems](https://developer.ebay.com/Devzone/shopping/docs/CallRef/GetMultipleItems.html) call accepts itemIds and returns seller authored details on the item for sale in their listing. This was used to get information such as of the model or product line for the knife being listed, blade material, blade type, blade edge type, color, the number of blades, opening mechanism, handle material, lock type, and blade range.
+
+> All of the data gathered from eBay's public API is limited to listed data posted in the past 90 days and doesn't include a "sold" price. Sold data is locked behind eBay's proprietary webapp, known as Terapeak. Data on this pay to play webapp has an option for sold data that goes back 2 years! Therefore, gaining access to this webapp and scraping all relevant pages proved to be very valuable and bypasses the limits of the free API. I used my reletavely new eBay seller's account to sign up for a free trial of terapeak and scraped useful data for sold, used knives of the 8 relevant brands. Information scraped includes Images, titles, price sold, shipping cost. 
+
+>A majority of the data was scraped from eBays proprietary Terapeak webapp, as this data goes back 2 years as compared to the API listed data that only goes back 90 days. It is assumed a large enough amount of listed data should approximate sold data well enough to prove useful for this project. 
+
+> The target feature for the model to predict is the total price (shipping included) that a knife should be listed on eBay. One model will be using titles and images in order to find potential listings that are undervalued and could be worth investing in. Another model will accept only images as input, as this is an input that can easily be obtained in person at the store. This model will use past sold data of knives on eBay in order to determine within an acceptable amount of error the price it will resale for on eBay (shipping included) using only an image.
+
+
+<div class="alert alert-block alert-info">  
+<span style="color:green">After cleaning the data to remove lots, groups, and most of the listings with multiple knives using regex, there were over 70,000 listings scraped from Terapeak, represting the final sale price of 70K different knives and their associated titles and images.</span>   
+ <span style="color:yellow">Around 10K listings were obtained using eBay's API, represnting current listed knives and their asking price. A large enough sample size of knives currently listed for sale should approximate the true value of the knife. A lot more of the sold data was available and is a clear indicator of the value of knives over the past two years.</span>
+ </div>
+ 
+ 
+<div class="alert alert-block alert-warning">  
+After combining the two datasets mentioned above, the data was then filtered to remove outliers using IQR filtering. The final dataset includes roughly 76K listings for knives between the 8 brands of interest.
+ </div>
