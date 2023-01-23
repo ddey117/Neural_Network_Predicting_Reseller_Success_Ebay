@@ -75,17 +75,16 @@ Below is the link for the GitHub project page.
 
 
 
-The Eight Pocketknife brands and their associated cost at the Texas Surplus Store:
-<ul>
-  <li>Benchmade: \$45.00</li>
-  <li>Buck: \$20.00</li>
-  <li>Case/Casexx: \$20.00</li>
-  <li>CRKT: \$15.00</li>
-  <li>Kershaw: \$15.00</li>
-  <li>SOG: \$15.00</li>
-  <li>Spyderco: \$30.00</li>
-  <li>Victorinox: \$20.00</li>
-</ul>
+| Brand       | Cost at Surplus Store | Cost Adjusted for Expenses |
+| :---        |        :----:         |                       ---: |
+| Benchmade   | $45.00                | $52.95 + 13% comission     |
+| Buck        | $20.00                | $27.95 + 13% comission     |
+| Case        | $20.00                | $27.95 + 13% comission     |
+| CRKT        | $15.00                | $22.95 + 13% comission     |
+| Kershaw     | $15.00                | $22.95 + 13% comission     |
+| SOG         | $15.00                | $22.95 + 13% comission     |
+| Spyderco    | $30.00                | $37.95 + 13% comission     |
+| Victorinox  | $20.00                | $27.95 + 13% comission     |
 
 
 [Ebay Developer Website](https://developer.ebay.com/)
