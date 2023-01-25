@@ -5,7 +5,6 @@ Below is the link for the GitHub project page.
 
 [Github link](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay)
 
->>>>>>> Stashed changes
 
 **Author:** Dylan Dey
 
