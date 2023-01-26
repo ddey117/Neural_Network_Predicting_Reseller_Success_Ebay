@@ -77,7 +77,12 @@ Below is the link for the GitHub project page.
 **overflow example**
 ![overflow image](images/overflow.jpeg)
 
-
+### Domain Understading: Cost Breakdown
+- padded envelopes: \$0.50 per knife
+- flatrate shipping: \$4.45 per knife
+- brand knife at surplus store: 15, 20, 30, or 45 dollars per knife
+- overhead expenses (gas, cleaning suplies, sharpening supplies, etc): $3.00
+- Ebay's comission, with 13\% being a reasonable approximation
 
 | Brand       | Cost at Surplus Store | Cost Adjusted for Expenses |
 | :---        |        :----:         |                       ---: |
