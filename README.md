@@ -160,9 +160,11 @@ After combining the two datasets mentioned above, the data was then filtered to 
 
 
 ### Convoluted Neural Network on Grayscale Images
-![CNN_MSE](images/CNN_images_MSE4.png)
+![CNN_Architecture](images/CNN_architecture.png)
+![CNN_MAE](images/CNN_MAE_relu1.png)
+![CNN_Regression Plot](images/Regression_CNN_relu1.png)
 
-- The RMSE for the CNN was roughly \$33.00, and the MAE was roughly \$26.00. That is an error of plus or minus about 50% of the mean price of knives sold. Not acceptable yet as compared to the RNN with titles. Will address in future work.
+- The RMSE for the CNN was roughly \$33.00, and the MAE was roughly \$25.00. That is an error of plus or minus about 50% of the mean price of knives sold. Not acceptable yet as compared to the RNN with titles. Will address in future work.
 
 ## Future Work
 - Expand data to include other products readily purchasable at the Surplus Store. 
