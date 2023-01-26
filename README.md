@@ -128,7 +128,7 @@ After combining the two datasets mentioned above, the data was then filtered to 
 >This project utilizes descriptive analysis to compare the profitability and return on investment for the 8 different brands avaialable for sale at the Texas State Surplus store. By examining different measures of centrality for previous prices sold on eBay in the past 2 years, the measure of variability, percentiles and also the construction of tables & graphs, it can be inferred which brands of knives to invest more heavily into and which ones to ignore completely at just a glance.
 
 
-> On top of descriptive analysis, the data will be used to train two different Neural Network models to predict the resale value of knives. The target feature for the model to predict is the total price (shipping included) that a knife should be listed on eBay. One model will be using titles and images in order to find potential listings that are undervalued and could be worth investing in. Another model will accept only images as input, as this is an input that can easily be obtained in person at the store. This model will use past sold data of knives on eBay in order to determine within an acceptable amount of error the price it will resell for on eBay (shipping included) using only an image. 
+> On top of descriptive analysis, the data will be used to train two different Neural Network models to predict the resale value of knives. The target feature for the model to predict is the total price (shipping included) that a knife should be listed on eBay. One model will use an RNN on titles in order to find potential listings that are undervalued and could be worth investing in. Another model will accept only images as input, as this is an input that can easily be obtained in person at the store. This model will use past sold data of knives on eBay in order to determine within an acceptable amount of error the price it will resell for on eBay (shipping included) using only an image. 
 
 ## Results
 
@@ -156,7 +156,7 @@ After combining the two datasets mentioned above, the data was then filtered to 
 ![RNN CNN MAE](images/MAE_LSTM_relu.png)
 ![regression_plot](images/regression_LSTM_relu.png)
 
-- The mean price of the 8 brands of knives sold on ebay is around \$50.00. A mean absolute error of about plus or minus /$13.80 is acceptable.
+- The mean price of the 8 brands of knives sold on ebay is around \$50.00. A mean absolute error of about plus or minus \$13.80 is acceptable.
 
 
 ### Convoluted Neural Network on Grayscale Images
