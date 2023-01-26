@@ -169,9 +169,9 @@ After combining the two datasets mentioned above, the data was then filtered to 
 ## Future Work
 - Expand data to include other products readily purchasable at the Surplus Store. 
 
-- Attempt data augmentation on the CNN image network
+- Explode nested list of images as form of data augmentation to increase image input size by about 5-fold. Attempt other data augmentation techniques.
 
-- Attempt to obtain more aspect data for sold knives. Some important aspect data is limited access to sellers who average a certain amount of money per month. 
+- Obtain more aspect related data for knives to understand most important cost altering features more thoroughly. Enough of this data could use a predictive model that isn’t a black box.
 
 
 # THANK YOU
@@ -199,5 +199,4 @@ email: ddey2985@gmail.com
 ├── Project_Presentation.pdf      <- project presentation pdf
 ├── data                          <- Both sourced externally and generated from code
 └── images                        <- Both sourced externally and generated from code
->>>>>>> Stashed changes
 
