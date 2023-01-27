@@ -158,12 +158,6 @@ After combining the two datasets mentioned above, the data was then filtered to 
 ![QQplot](images/QQplot_LSTM_titles.png)
 
 - The mean price of the 8 brands of knives sold on ebay is around \$50.00. A mean absolute error of about plus or minus \$13.80 is acceptable.
--However, the regression does not meet the assumptions for a linear model. 
-
-| Jarque-Bera | 7972.064575870508 |
-| Prob        | 0.0               |
-| Skew        | 0.90151127343286  |
-| Kurtosis    | 6.610052027007013 |
 
 
 ### Convoluted Neural Network on Grayscale Images
