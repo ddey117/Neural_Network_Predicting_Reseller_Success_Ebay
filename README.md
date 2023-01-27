@@ -192,11 +192,11 @@ email: ddey2985@gmail.com
 
 ```
 ├── README.md                     <- The top-level README for reviewers of this project
-├── Exploratory_Notebook.ipynb    <- exploratory notebook
-├── Exploratory_Notebook.pdf      <- PDF version of exploratory notebook
-├── Sentiment_Modeling.ipynb      <- modeling notebook
-├── Sentiment_Modeling.pdf        <- modeling notebook pdf
+├── Data_Sourcing_Notebook.ipynb  <- Notebook for obtaining and processing Ebay data
+├── Data_Exploration.ipynb        <- Descriptive Analysis of data
+├── Model_Interpret.ipynb         <- modeling notebook
 ├── Project_Presentation.pdf      <- project presentation pdf
-├── data                          <- Both sourced externally and generated from code
-└── images                        <- Both sourced externally and generated from code
+├── listed_data                   <- Both sourced externally and generated from code
+├── sold_data                     <- Both sourced externally and generated from code
+└── images                        <- Graphs and visualization/various helpful images
 
