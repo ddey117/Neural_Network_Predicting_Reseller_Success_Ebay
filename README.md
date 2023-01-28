@@ -152,16 +152,12 @@ After combining the two datasets mentioned above, the data was then filtered to 
 ---------------------------------------------------
 ### Recurrent Neural Network (Long Short Term Memory)
 
-![RNN LSTM Arc](images/RNN_LSTM_arc.png)
 ![RNN CNN MAE](images/MAE_LSTM_relu.png)
 ![regression_plot](images/regression_LSTM_relu.png)
-![QQplot](images/QQplot_LSTM_titles.png)
 
 - The mean price of the 8 brands of knives sold on ebay is around \$50.00. A mean absolute error of about plus or minus \$13.80 is acceptable.
 
 
-### Convoluted Neural Network on Grayscale Images
-![CNN_Architecture](images/CNN_architecture.png)
 ![CNN_MAE](images/CNN_MAE_relu1.png)
 ![CNN_Regression Plot](images/Regression_CNN_relu1.png)
 
