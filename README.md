@@ -130,39 +130,55 @@ After combining the two datasets mentioned above, the data was then filtered to 
 
 > On top of descriptive analysis, the data will be used to train two different Neural Network models to predict the resale value of knives. The target feature for the model to predict is the total price (shipping included) that a knife should be listed on eBay. One model will use an RNN on titles in order to find potential listings that are undervalued and could be worth investing in. Another model will accept only images as input, as this is an input that can easily be obtained in person at the store. This model will use past sold data of knives on eBay in order to determine within an acceptable amount of error the price it will resell for on eBay (shipping included) using only an image. 
 
-## Results
+# Results
 
-### Descriptive Analysis
----------------------------------------------------
-![ROI Graph](images/ROI_graphs.png)
-![Price/Profits](images/price_profit_graphs.png)
-![profit distribution](images/4x4_profit_graphs.png)
-![ROI distribution](images/4x4_ROI_graphs.png)
-
-- Do Not Invest In Kershaw, Buck, CRKT, or especially Victorinox knives (only brand with negative centrality for profit).
-
-- Case Knives appear to be the lowest risk knife to invest in with the highest return on investment.
-
-- Benchmade knives appear to generate more profit but at higher risk with a higher cost to invest.
-
-- Spyderco knives appear to be a great balance between initial cost, profit, and return on Investment.
-
--  Spyderco, Benchmade, and Case knives are all great choices for investing in for an eBay storefront.
 
 ---------------------------------------------------
-### Recurrent Neural Network (Long Short Term Memory)
+### Recurrent Neural Network (GRU)
 
-![RNN CNN MAE](images/MAE_LSTM_relu.png)
-![regression_plot](images/regression_LSTM_relu.png)
+The GRU Price Predictive Model is recommended for use when listing a pocket knife on sale to help list it appropriately.
 
-- The mean price of the 8 brands of knives sold on ebay is around \$50.00. A mean absolute error of about plus or minus \$13.80 is acceptable.
+**Best Mean Absolute Error: $14.28**
+
+---------------------------------------------------
+
+### Convoluted Neural Network on Grayscale Images
+
+- The MAE when testing the CNN was roughly \\$25.00. That is an error of plus or minus about 50\% of the mean price of knives sold. Not acceptable yet as compared to the RNN with titles. Will address in future work.
+
+![GRU regPlot](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay/blob/master/images/RNN/regPlot_GRU_performance.png?raw=true)
+
+# Business Recommendations
+Summary: Invest in Case brand and Spyderco knives at the Texas Surplus store. Benchmade knives will return high profits as well but lower return on investment. Deploy the GRU predictive modeling network when listing a pocket knife for sale on eBay to help balance time, excess inventory costs, and lost revenue. 
+
+## Descriptive Analysis Conclusion
+
+**Risk Tolerance/Available Capital**
+
+Depending on how much upfront capital invested and if you can tolerate addition risk, Benchmade knives have returned the highest profit in the past 2 years when compared to the other brands avalaible at the Surplus Store. 
+
+**Volume of Sales**
+
+It is important to consider the volume of knives sold in order to avoid excess inventory. Benchmade knives have high profit but are rarely listed/sold compared to other brands. They are more rare than the other knives and past data suggest they will likely be harder to find on average when compared to the other brands.
+
+**Risk/Initial Cost continued**
+
+On the other hand, Case knives have demonstrated the lowest risk and highest percentage for return on investment in the past 2 years on eBay and has had the highest daily volume of sales. 
 
 
-![CNN_MAE](images/CNN_MAE_relu1.png)
-![CNN_Regression Plot](images/Regression_CNN_relu1.png)
+**Balancing Act**
 
-- The RMSE for the CNN was roughly \$33.00, and the MAE was roughly \$25.00. That is an error of plus or minus about 50% of the mean price of knives sold. Not acceptable yet as compared to the RNN with titles. Will address in future work.
+Spyderco knives offer a great compromise between ROI and pure profit. Investing in this brand should return high profits without risking as much capital. There is also a reasonable amount of daily volume for Spyderco brand knives sold. Case knives have almost double the daily volume of sales compared to Spyderco, and they will likely be easier to find. Case knives are also worth investing in to maximize ROI and efficiency searching at the Surplus Store for more inventory to move.
 
+-------------------------------------
+
+## Model Analysis Conclusion
+ - The performance metrics for the GRU Price Predictive Model was the Mean Squared Error and Mean Absolute Error for the model when predicting for the correct price to list the knife (an approximation for the true value of the knife). The best performing Model exhibited a Mean Absolute Error of \\$14.28. I believe an error range of plus or minus \\$14.28 outperforms the current process of scrolling through webpages and having the lister try to guess themselves. Even given missing the correct value by about 14 dollars and a quarter for each knife listed on average, the time saved trying to figure out a correct price within an acceptable limit without the model has implicit cost that is hard to value on a spreadsheet.
+ 
+ - Deploying the model helps balance excess inventory costs for too high of prices vs loss revenue.
+    
+**Summary: I reccomend deploying the Price Predicting Model before posting a pocket knife for sale on eBay.**
+ 
 ## Future Work
 - Expand data to include other products readily purchasable at the Surplus Store. 
 
@@ -173,12 +189,6 @@ After combining the two datasets mentioned above, the data was then filtered to 
 
 # THANK YOU
 
-
-<nav> 
-<a href="https://dev.to/ddey117">Blog</a> |
-<a href="https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay/">GitHub</a> |                             
-<a href="https://github.com/ddey117/preprocess_ddey117">PreProcess Github</a> 
-</nav>
 
 
 Dylan Dey
