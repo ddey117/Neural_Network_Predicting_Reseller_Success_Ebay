@@ -1,0 +1,29 @@
+
+![ROI](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay/blob/master/images/descriptive_analysis/ROI_graph.png?raw=true)
+
+
+**Risk Tolerance/Available Capital**
+![profit](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay/blob/master/images/descriptive_analysis/profit_graph.png?raw=true)
+Depending on how much upfront capital invested and if you can tolerate addition risk, Benchmade knives have returned the highest profit in the past 2 years when compared to the other brands avalaible at the Surplus Store. 
+
+**Volume of Sales**
+![Top 3](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay/blob/master/images/descriptive_analysis/top3_ROI_graphs.png?raw=true)
+It is important to consider the volume of knives sold in order to avoid excess inventory. Benchmade knives have high profit but are rarely listed/sold compared to other brands. They are more rare than the other knives and past data suggest they will likely be harder to find on average when compared to the other brands.
+
+**Risk/Initial Cost continued**
+![ROI](https://github.com/ddey117/Neural_Network_Predicting_Reseller_Success_Ebay/blob/master/images/descriptive_analysis/ROI_graph.png?raw=true)
+
+On the other hand, Case knives have demonstrated the lowest risk and highest percentage for return on investment in the past 2 years on eBay and has had the highest daily volume of sales. 
+
+
+**Balancing Act**
+
+*Three pocket knives to invest in and their considerations*:
+
+- Spyderco knives offer a great compromise between ROI and pure profit. Investing in this brand should return high profits without risking as much capital.
+
+
+- Case knives have almost double the daily volume of sales compared to Spyderco, and they will likely be easier to find. Case knives are also worth investing in to maximize ROI and efficiency searching at the Surplus Store for more inventory to move. 
+
+
+- Sale volume was low for Benchmade knives, but they have sold for high profit in the past 2 years on eBay. 
